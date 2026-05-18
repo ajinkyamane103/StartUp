@@ -90,7 +90,7 @@ const TESTIMONIALS = [
     name: "Sarah Chen",
     role: "CTO, NovaTech Inc.",
     avatar: "SC",
-    text: "LingPisat rebuilt our entire data pipeline in 8 weeks. Performance improved 10x. Genuinely world-class engineers.",
+    text: "AuraTech Solutions rebuilt our entire data pipeline in 8 weeks. Performance improved 10x. Genuinely world-class engineers.",
     stars: 5,
   },
   {
@@ -104,7 +104,7 @@ const TESTIMONIALS = [
     name: "Priya Sharma",
     role: "VP Engineering, Luminary",
     avatar: "PS",
-    text: "Three agencies failed before LingPisat. They delivered in 6 weeks what others couldn't in 6 months.",
+    text: "Three agencies failed before AuraTech Solutions. They delivered in 6 weeks what others couldn't in 6 months.",
     stars: 5,
   },
 ];
@@ -193,10 +193,10 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-400 to-violet-500 flex items-center justify-center shadow-lg shadow-cyan-500/30">
-            <span className="text-white font-black text-sm">LP</span>
+            <span className="text-white font-black text-sm">AT</span>
           </div>
           <span className="text-white font-bold text-lg tracking-tight">
-            Ling<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-400">Pisat</span>
+            Aura<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-400">Tech</span>
           </span>
         </div>
 
@@ -481,14 +481,14 @@ function About() {
             transition={{ duration: 0.7 }}
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-violet-500/30 bg-violet-500/5 mb-6">
-              <span className="text-violet-400 text-sm font-medium">About LingPisat</span>
+              <span className="text-violet-400 text-sm font-medium">About AuraTech</span>
             </div>
             <h2 className="text-4xl lg:text-5xl font-black text-white leading-tight mb-6">
               We Don't Just Build —<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-cyan-400">We Engineer the Future</span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
-              Founded in 2013, LingPisat Technology is a full-stack digital innovation studio working with Fortune 500s and Series A startups alike. Our engineers, designers, and AI researchers collaborate to create products that define markets.
+              Founded in 2013, AuraTech Technology is a full-stack digital innovation studio working with Fortune 500s and Series A startups alike. Our engineers, designers, and AI researchers collaborate to create products that define markets.
             </p>
             <p className="text-slate-500 leading-relaxed mb-8">
               We've shipped products used by 50M+ users, processed $2B+ in transactions through systems we built, and launched 3 unicorns. Our obsession is craftsmanship — every detail, every millisecond, every interaction.
@@ -834,10 +834,10 @@ function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-5">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-400 to-violet-500 flex items-center justify-center">
-                <span className="text-white font-black text-sm">LP</span>
+                <span className="text-white font-black text-sm">AT</span>
               </div>
               <span className="text-white font-bold text-lg">
-                Ling<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-400">Pisat</span> Technology
+                Aura<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-400">Tech</span> Technology
               </span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
@@ -858,7 +858,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-600 text-xs">© 2026 LingPisat Technology. All rights reserved.</p>
+          <p className="text-slate-600 text-xs">© 2026 AuraTech Technology. All rights reserved.</p>
           <p className="text-slate-600 text-xs">Crafted with precision. Built for scale.</p>
         </div>
       </div>
